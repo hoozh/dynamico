@@ -88,7 +88,7 @@ new Dynamico("https://lazarjelic.com/ecloga/projects/dynamico",
 
 ## Manual
 
-For advanced usage, take a look at this awesome [manual](https://github.com/jelic98/dynamico/blob/master/MANUAL.md).
+For advanced usage, take a look at this awesome [manual](https://github.com/hoozh/dynamico/blob/master/MANUAL.md).
 
 ## Additional features
 

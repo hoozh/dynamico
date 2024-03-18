@@ -1,0 +1,27 @@
+{
+  "views":[
+    {
+      "class":"android.widget.ImageView",
+      "attributes":{
+        "layout_width":"wrap_content",
+        "layout_height":"wrap_content",
+        "src":"https://www.bearlife.org/images/giant-panda-facts.jpg",
+        "cache":true
+      }
+    },
+    {
+      "class":"android.widget.TextView",
+      "attributes":{
+        "text":"Yo!",
+        "textColor":"#FF69B4"
+      }
+    },
+    {
+      "class":"android.widget.Button",
+      "attributes":{
+        "text":"Click me",
+        "textColor":"#8069FF"
+      }
+    }
+  ]
+}

@@ -27,7 +27,7 @@ public final class ViewFactory {
         for(int i = 0; i < views.length(); i++) {
             try {
                 layout.addView(getView(views.getJSONObject(i), layout.getClass()));
-            }catch(Exception e) {
+            } catch(Exception e) {
                 Util.log("View error", "Caused by JSON object at index " + i + "\nDetails: " + e.getMessage());
                 e.printStackTrace();
             }
