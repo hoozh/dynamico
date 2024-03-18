@@ -20,7 +20,25 @@
       "class":"android.widget.Button",
       "attributes":{
         "text":"Click me",
-        "textColor":"#8069FF"
+        "textColor":"#8069FF",
+        "onClick":{
+          "method":"onImageClick",
+          "class":"org.ecloga.demo.ActivityMain",
+          "parameters":
+          [
+            {
+              "type":"java.lang.String",
+              "value":"zhanghu"
+            },
+            {
+            "type":"java.lang.Integer",
+            "value":40
+            },
+            {
+              "type":"android.content.Context"
+            }
+          ]
+        }
       }
     }
   ]

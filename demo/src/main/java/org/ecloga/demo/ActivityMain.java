@@ -55,7 +55,6 @@ public class ActivityMain extends AppCompatActivity {
             BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream));
             StringBuilder stringBuilder = new StringBuilder();
             String line;
-            // 逐行读取文件内容
             while ((line = reader.readLine()) != null) {
                 stringBuilder.append(line);
                 stringBuilder.append('\n');
