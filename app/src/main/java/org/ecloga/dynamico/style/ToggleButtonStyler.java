@@ -22,7 +22,7 @@ final class ToggleButtonStyler extends CompoundButtonStyler {
         }
 
         if(attributes.has("textOff")) {
-            toggleButton.setTextOn(attributes.getString("textOff"));
+            toggleButton.setTextOff(attributes.getString("textOff"));
         }
 
         return toggleButton;

@@ -40,6 +40,28 @@
           ]
         }
       }
+    },
+    {
+      "class":"android.widget.ToggleButton",
+      "attributes":{
+        "textOn":"textOn",
+        "textOff":"textOff",
+        "textColor":"#8069FF",
+        "onCheck":{
+          "method":"onButtonCheck",
+          "class":"org.ecloga.demo.ActivityMain",
+          "parameters":
+          [
+            {
+              "type":"java.lang.String",
+              "value":"hello from toggle button"
+            },
+            {
+              "type":"android.content.Context"
+            }
+          ]
+        }
+      }
     }
   ]
 }

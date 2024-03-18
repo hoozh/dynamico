@@ -100,7 +100,7 @@ public class ActivityMain extends AppCompatActivity {
     }
 
     // first argument must be boolean and it will be used as 'checked' flag
-    public static void onButtonCheck(boolean isChecked, String message, Context context) {
+    public static void onButtonCheck(Boolean isChecked, String message, Context context) {
         Toast.makeText(context, "Checked: " + isChecked + "\nMessage: " + message, Toast.LENGTH_SHORT).show();
     }
 }
