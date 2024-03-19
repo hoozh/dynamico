@@ -212,6 +212,20 @@ class ViewStyler implements Styler {
                 }catch(IllegalArgumentException e) {
                     Util.log("Style error", e.getMessage());
                 }
+            } else {
+                // TODO support background from resource
+                // setBackgroundResource
+                try {
+                    int atIndex = background.indexOf('@');
+                    int slashIndex = background.indexOf('/');
+                    if (atIndex != -1 && slashIndex != -1 && atIndex < slashIndex) {
+                        String defType = background.substring(atIndex + 1, slashIndex);
+                        int resId = context.getResources().getIdentifier(background, defType, context.getPackageName());
+                        view.setBackgroundResource(resId);
+                    }
+                } catch (Exception e) {
+                    Util.log("Style error", e.getMessage());
+                }
             }
         }
 

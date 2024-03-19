@@ -25,6 +25,11 @@ final class ToggleButtonStyler extends CompoundButtonStyler {
             toggleButton.setTextOff(attributes.getString("textOff"));
         }
 
+        if(attributes.has("textOn") || attributes.has("textOff")) {
+            // update text immediately
+            toggleButton.setChecked(toggleButton.isChecked());
+        }
+
         return toggleButton;
     }
 }

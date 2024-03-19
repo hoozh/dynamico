@@ -47,6 +47,7 @@
         "textOn":"textOn",
         "textOff":"textOff",
         "textColor":"#8069FF",
+        "background":"@drawable/button_ok",
         "onCheck":{
           "method":"onButtonCheck",
           "class":"org.ecloga.demo.ActivityMain",
